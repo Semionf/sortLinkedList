@@ -1,0 +1,44 @@
+2022 9 13: 11:16:17- Event - Program started.
+2022 9 13: 11:16:17- Event - New node added: 7102
+2022 9 13: 11:16:17- Event - New node added: 2950
+2022 9 13: 11:16:17- Event - New node added: 23861
+2022 9 13: 11:16:17- Event - New node added: 31552
+2022 9 13: 11:16:17- Event - New node added: 17734
+2022 9 13: 11:16:17- Event - New node added: 8817
+2022 9 13: 11:16:17- Event - New node added: 8745
+2022 9 13: 11:16:17- Event - New node added: 17034
+2022 9 13: 11:16:17- Event - New node added: 4924
+2022 9 13: 11:16:17- Event - New node added: 6746
+2022 9 13: 11:16:17- Event - Sorting List
+2022 9 13: 11:16:17- Event - Replacing 6746 with 4924
+2022 9 13: 11:16:17- Event - Replacing 17034 with 8745
+2022 9 13: 11:16:17- Event - Replacing 17034 with 8817
+2022 9 13: 11:16:17- Event - Replacing 31552 with 23861
+2022 9 13: 11:16:17- Event - Replacing 31552 with 2950
+2022 9 13: 11:16:17- Event - Replacing 31552 with 7102
+2022 9 13: 11:16:17- Event - Replacing 23861 with 2950
+2022 9 13: 11:16:17- Event - Replacing 23861 with 7102
+2022 9 13: 11:16:17- Event - Replacing 17734 with 2950
+2022 9 13: 11:16:17- Event - Replacing 17734 with 7102
+2022 9 13: 11:16:17- Event - Replacing 17034 with 2950
+2022 9 13: 11:16:17- Event - Replacing 17034 with 7102
+2022 9 13: 11:16:17- Event - Replacing 8817 with 2950
+2022 9 13: 11:16:17- Event - Replacing 8817 with 7102
+2022 9 13: 11:16:17- Event - Replacing 8745 with 2950
+2022 9 13: 11:16:17- Event - Replacing 8745 with 7102
+2022 9 13: 11:16:17- Event - Replacing 6746 with 2950
+2022 9 13: 11:16:17- Event - Replacing 4924 with 2950
+2022 9 13: 11:16:17- Event - List has printed.
+2022 9 13: 11:16:17- Event - 2950
+2022 9 13: 11:16:17- Event - 4924
+2022 9 13: 11:16:17- Event - 6746
+2022 9 13: 11:16:17- Event - 7102
+2022 9 13: 11:16:17- Event - 8745
+2022 9 13: 11:16:17- Event - 8817
+2022 9 13: 11:16:17- Event - 17034
+2022 9 13: 11:16:17- Event - 17734
+2022 9 13: 11:16:17- Event - 23861
+2022 9 13: 11:16:17- Event - 31552
+2022 9 13: 11:16:17- Event - Release Event
+2022 9 13: 11:16:17- Event - Time between start and end is: 0
+2022 9 13: 11:16:17- Event - End of program
