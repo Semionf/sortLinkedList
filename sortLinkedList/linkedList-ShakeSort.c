@@ -26,13 +26,14 @@ int numOfNodes = 0;
 
 int main()
 {
-	int start, end, diff;
+	int startSec, endSec, diffSec = 0, diffMin = 0, startMin, endMin;
 	char str[100];
 	time_t t;
 	time(&t);
 	struct tm* timeInfo;
 	timeInfo = localtime(&t);
-	start = timeInfo->tm_sec;
+	startMin = timeInfo->tm_min;
+	startSec = timeInfo->tm_sec;
 	int num;
 	LogEvent("Program started.");
 	randomNumbers();
@@ -40,9 +41,16 @@ int main()
 	printf("After sort: \n");
 	printList();
 	releaseAll();
-	end = timeInfo->tm_sec;
-	diff = start - end;
-	sprintf(str, "Time between start and end is: %d", diff);
+	endMin = timeInfo->tm_min;
+	endSec = timeInfo->tm_sec;
+	if (startSec > endSec)
+	{
+		endSec += 60;
+		endMin--;
+	}
+	diffSec = endSec - startSec;
+	diffMin = endMin - startMin;
+	sprintf(str, "Time between start and end is: %d minutes and %d seconds",diffMin ,diffSec);
 	LogEvent(str);
 	LogEvent("End of program");
 }
@@ -157,7 +165,7 @@ void bubbleSort()
 	LogEvent("Sorting List");
 	int i = 0;
 	int j = 0;
-	while (curr && i < numOfNodes)
+	while (i < numOfNodes)
 	{
 		curr = head;
 		while (curr && j < numOfNodes - 1 - i)
@@ -217,7 +225,7 @@ void randomNumbers()
 {
 	int num;
 	srand(time(NULL));
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 1000; i++)
 	{
 		num = rand();
 		add(num);

@@ -1,5 +1,5 @@
 ﻿  linkedList-ShakeSort.c
-C:\Users\User\source\repos\sortLinkedList\sortLinkedList\linkedList-ShakeSort.c(36,6): warning C4101: 'num': unreferenced local variable
-C:\Users\User\source\repos\sortLinkedList\sortLinkedList\linkedList-ShakeSort.c(219,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\User\source\repos\sortLinkedList\sortLinkedList\linkedList-ShakeSort.c(242,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\User\source\repos\sortLinkedList\sortLinkedList\linkedList-ShakeSort.c(37,6): warning C4101: 'num': unreferenced local variable
+C:\Users\User\source\repos\sortLinkedList\sortLinkedList\linkedList-ShakeSort.c(226,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\source\repos\sortLinkedList\sortLinkedList\linkedList-ShakeSort.c(249,2): warning C4013: 'strcpy' undefined; assuming extern returning int
   sortLinkedList.vcxproj -> C:\Users\User\source\repos\sortLinkedList\x64\Debug\sortLinkedList.exe
